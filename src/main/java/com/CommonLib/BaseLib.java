@@ -12,7 +12,7 @@ import org.testng.annotations.Parameters;
 public class BaseLib {
 
     public WebDriver driver;
-    String weburl = "http://10.90.0.129:5050/";
+    String weburl = "https://www.google.com/";
 
     @Parameters("browser")
 
