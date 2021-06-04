@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Web page" verbose="1" group-by-instances="true" preserve-order="true" parallel="none">
+    <test name="ChromeTest">
+        <parameter name = "browser" value = "chrome"/>
+        <parameter name = "username" value = "username"/>
+        <parameter name = "password" value = "password"/>
+        <classes>
+
+            <class name="com.TestScripts.LoginWeb"/>
+
+        </classes>
+    </test>
+</suite>
